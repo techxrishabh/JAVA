@@ -1,3 +1,5 @@
+// By using scanner ============== we can take the input from user by using the console to process further ================
+
 import java.util.Scanner;
 public class Add2Num{
     public static void main(String args[]){
