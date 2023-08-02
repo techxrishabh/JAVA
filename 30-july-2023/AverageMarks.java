@@ -1,20 +1,3 @@
-// What is the output of the following code if the input string is "Career Labs"
-
-// scanner s = new Scanner(System.in);
-// String str;
-// str = s.next();
-// System.out.print(str);
-
-// answer should be Career
-
-// It only prints the first token "Career" because the Scanner.next() method reads tokens separated by whitespace by default, and it stops reading once it encounters the first whitespace character.
-
-
-//:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-
-
 // Average Marks
 
 // Write a program to input a name(as a single character) and marks of three tests as m1, m2, and m3 of a student considering all the three marks have been given in integer format.
@@ -41,4 +24,22 @@
 // T
 // 6
 
+import java.util.Scanner;
 
+public class AverageMarks{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+
+        String name = s.nextLine();
+
+        int m1 = s.nextInt();
+        int m2 = s.nextInt();
+        int m3 = s.nextInt();
+
+        int average = m1 * m2 * m3 / 3;
+
+        System.out.println(name);
+        System.out.println(average);
+
+    }
+}
