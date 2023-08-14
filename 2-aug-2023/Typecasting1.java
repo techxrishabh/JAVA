@@ -6,3 +6,5 @@
 //  There are two main types of type casting in Java: 
 //  implicit (automatic) casting and also knows as Widening casting 
 //  explicit (manual) casting also known as Narrowing casting or type conversion -----
+
+
