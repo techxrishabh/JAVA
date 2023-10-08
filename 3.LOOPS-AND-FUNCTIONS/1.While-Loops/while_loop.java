@@ -25,7 +25,7 @@ public class while_loop {
         while(i <= N) {
             System.out.println(i);
             i = i + 1;
-        }
+        }   
 
     }
     
